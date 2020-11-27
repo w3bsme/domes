@@ -24,3 +24,12 @@ const DOMElementsStatistics = new DOMes({
 	displayed: true,
 }).dispatch()
 ```
+Using [Effect Hook](https://reactjs.org/docs/hooks-effect.html)
+
+```javascript
+useEffect(() => {
+	const DOMElementsStatistics = new DOMes({
+		displayed: true,
+	}).dispatch()
+}, [])
+```
