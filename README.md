@@ -1,6 +1,6 @@
 <h1 align="center">
   <a href="https://github.com/w3bsme/OnLime-vulnerability">
-    OnLime vulnerability
+    DOMes
   </a>
 </h1>
 
