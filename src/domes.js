@@ -1,6 +1,6 @@
 export default class DOMes {
-	constructor(displayed) {
-		this.displayed = displayed || false
+	constructor(parameters) {
+		this.parameters = parameters || {}
 	}
 
 	dispatch() {
@@ -9,6 +9,6 @@ export default class DOMes {
 			elements[name] = elements[name] ? elements[name] + 1 : 1
 		})
 
-		return this.displayed ? console.table(elements) : elements
+		return !!this.parameters.displayed ? console.table(elements) : elements
 	}
 }
