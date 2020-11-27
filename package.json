@@ -1,0 +1,25 @@
+{
+  "name": "domeslib",
+  "version": "1.2.8",
+  "description": "DOM Element Statistics Library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/w3bsme/domes.git"
+  },
+  "keywords": [
+    "DOM",
+    "DOMElement",
+    "Statistics",
+    "domes"
+  ],
+  "author": "https://github.com/w3bsme",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/w3bsme/domes/issues"
+  },
+  "homepage": "https://github.com/w3bsme/domes#readme"
+}
