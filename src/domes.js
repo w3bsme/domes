@@ -5,9 +5,13 @@ export default class DOMes {
 
 	dispatch() {
 		const elements = {}
-		document.querySelectorAll("*").forEach(({ tagName: name }) => {
-			elements[name] = elements[name] ? elements[name] + 1 : 1
-		})
+		const collection = document.getElementsByTagName("*")
+        	const collectionLength = collection.length;
+        	let name;
+        	for (let i = 0; i < collectionLength; ++i) {
+            		name = collection[i].tagName
+            		elements[name] = (elements[name] + 1) || 1
+        	}
 
 		return !!this.parameters.displayed ? console.table(elements) : elements
 	}
